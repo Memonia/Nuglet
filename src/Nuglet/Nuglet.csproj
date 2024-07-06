@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<Nullable>enable</Nullable>
+		<PackAsTool>true</PackAsTool>
+
+		<Authors>Memonia</Authors>
+		<PackageId>Memonia.Nuglet.Tool</PackageId>
+		<Description>A simple utility for local NuGet package testing</Description>
+		<RepositoryUrl>https://github.com/Memonia/Nuglet</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<ToolCommandName>nuglet</ToolCommandName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Spectre.Console.Cli" Version="0.49.1" />
+	</ItemGroup>
+</Project>

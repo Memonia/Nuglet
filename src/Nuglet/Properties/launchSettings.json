@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Nuglet": {
+      "commandName": "Project",
+      "commandLineArgs": "\".\\*.nupkg\"\r\n--name nuglet-test\r\n--vs-sln\r\n--overwrite",
+      "workingDirectory": "../../.artifacts/test"
+    }
+  }
+}
